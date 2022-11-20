@@ -28,7 +28,6 @@ const PostList = ({ posts, title, remove }) => {
             <PostItem remove={remove} number={index + 1} post={post}  />
             </CSSTransition>
          )}
-
          </TransitionGroup>
       </div>
    );
